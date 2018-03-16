@@ -1,24 +1,27 @@
 {
-  "name": "chapeupreto/sinesp",
-  "description": "SINESP Cidadao API client",
-  "keywords": ["sinesp", "sinesp-client", "placa", "veiculos", "governo", "seguranca", "utilidade"],
-  "type": "library",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Rod Elias",
-      "email": "rodiney@gmail.com"
+    "name": "hedcler/sinesp",
+    "description": "SINESP Cidadao API client",
+    "keywords": ["sinesp", "sinesp-client", "placa", "veiculos", "governo", "seguranca", "utilidade"],
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Hedcler Morais",
+            "email": "hedclermorais@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "ext-curl": "*",
+        "ext-xml": "*",
+        "ext-libxml": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sinesp\\": "src/"
+        }
     }
-  ],
-  "require": {
-    "php": ">=5.4.0",
-    "ext-curl": "*",
-    "ext-xml": "*",
-    "ext-libxml": "*"
-  },
-  "autoload": {
-    "psr-4": {
-      "Sinesp\\": "src/"
-    }
-  }
 }
