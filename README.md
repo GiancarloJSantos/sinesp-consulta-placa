@@ -40,7 +40,7 @@ Essas informações estarão disponíveis por meio de um `array associativo` ou 
 Instale a versão mais recente com:
 
 ```sh
-composer require hedcler/sinesp-consulta-placa
+composer require hedcler/sinesp
 ```
 
 # Utilização
