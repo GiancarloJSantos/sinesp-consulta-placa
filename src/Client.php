@@ -6,7 +6,7 @@ use Sinesp\Exceptions\SinespException;
 
 class Client
 {
-	const SECRET = '#8.1.0#Mw6HqdLgQsX41xAGZgsF';
+	const SECRET = '#8.1.0#g8LzUadkEHs7mbRqbX5l';
     const URL = 'https://cidadao.sinesp.gov.br/sinesp-cidadao/mobile/consultar-placa/v3';
     
     private $proxy = array();
